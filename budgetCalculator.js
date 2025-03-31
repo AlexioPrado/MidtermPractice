@@ -41,9 +41,10 @@ Accurate Total Projected Savings: Calculate and display the total savings accura
 
 */
 
-// Ask user for monthly income, expense, and projected length
+//Function to use for try catch
 function JS () {
     try {
+        // Ask user for monthly income, expense, and projected length
         let monthlyIncome = Number(prompt('Enter your total monthly Income:'));
         if (monthlyIncome !== Number(monthlyIncome)){
             throw 'Income is not numeric. Please retry.'
